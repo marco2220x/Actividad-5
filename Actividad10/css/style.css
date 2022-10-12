@@ -1,0 +1,51 @@
+
+header {
+background: white;
+}
+
+body{
+  background: white;
+}
+
+.cabecera{
+  height: 400px;
+  background: orange;
+
+}
+
+.barra{
+  height: 75px;
+  background: red;
+}
+
+.contenido{
+  margin-top: 75px;
+  margin-bottom: 75px;
+  margin-left: 100px;
+  margin-right: 100px;
+  height: 500px;
+  background: yellow;
+  
+}
+
+.cuadrovb{
+  Height: 200px;
+  Background: green;
+  margin-bottom: 75px;
+}
+
+.cuadrovl{
+  Height: 400px;
+  Width: auto;
+  Background: lime;
+}
+
+.suscripcion{
+  height: 400px;
+  background: gray;
+}
+
+.pie{
+  height: 100px;
+  background: black
+}
