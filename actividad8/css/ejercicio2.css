@@ -1,0 +1,110 @@
+html{
+    font-size: 50%;
+}
+
+header{
+    width: 100%;
+}
+
+body{
+    background-image: url("../images/background-pattern.png");
+}
+
+nav ul{
+    display: flex;
+    padding: 0.1em;
+    list-style: none;
+}
+
+nav ul li{
+    padding: 0.5em;
+    font-size: 1rem;
+}
+
+a{
+    color: #75cfff;
+    font-size: 1.3rem;
+}
+
+.mainNav ul{
+    justify-content: flex-end;
+    background-color: #273649;
+    padding-right: 3em;
+}
+
+.logo{
+    padding-left: 3em;
+    background-image: url("../images/header-background.png");
+    background-repeat: repeat;
+}
+
+.subNav{
+    background-color: #d9e0ea;
+    padding-left: 3em;
+}
+
+.frame{
+    padding: 1.5em;
+    margin: auto;
+    text-align: center;
+}
+
+.frame img{
+    border: 1px solid black;
+    padding: 0.6em;
+}
+
+.container{
+    margin: auto 9em 1em 9em;
+    border: 1px solid black;
+}
+
+.title{
+    padding: 0.5em 0 1em 0.5em;
+    background-image: url("../images/header-background.png");
+    color: white;
+    font-size: 1.2rem;
+}
+
+.cDetails p, .cContact p{
+    color: black;
+    font-size: 1.3rem;
+    padding: 0.5em 0 0.5em 0.5em;
+}
+
+.cDetails p em, .cContact p em{
+    color: rgb(150, 150, 150);
+    font-weight: 100;
+}
+
+.buttons{
+    background-color: #273649;
+    padding: 0.7em;
+}
+
+.buttons ul{
+    list-style: none;
+    display: flex;
+}
+
+.buttons ul li{
+    text-align: auto;
+    padding: 0.2em 1em;
+    background-color: #d5e1ec;
+    margin-left: 1em;
+    justify-content: center;
+}
+
+.buttons ul li img{
+    padding-right: 1em;
+}
+
+.cFooter{
+    background-color: #273649;
+    margin: auto 9em 1em 9em;
+    padding: 0.5em 0.5em;
+}
+
+.cFooter p{
+    color: white;
+}
